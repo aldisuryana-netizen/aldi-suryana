@@ -1,0 +1,331 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Pariwisata Purwakarta - Waduk Jatiluhur & Destinasi Lainnya</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        button {
+          color: white;
+          background-color: #2e7d32;
+          border: none;
+          padding: 8px 15px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        header {
+          background: linear-gradient(#2e7d32, #1b5e20);
+          padding: 30px;
+          text-align: center;
+          color: white;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+          width: 90%;
+          margin: auto;
+          padding: 15px 0;
+        }
+
+        h2 {
+          color: #1b5e20;
+          border-bottom: 2px solid #2e7d32;
+          padding-bottom: 5px;
+        }
+
+        h4 {
+          color: #2e7d32;
+          margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2e7d32;
+            color: white;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        .hero-video {
+            width: 100%;
+            height: auto;
+            max-height: 500px;
+            object-fit: cover;
+        }
+
+        .search-bar {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .search-bar input {
+            padding: 8px;
+            width: 60%;
+            margin-right: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px 0;
+        }
+  </style>
+ </head> 
+ <body> 
+  <header> 
+   <h1>PARIWISATA KABUPATEN PURWAKARTA</h1> 
+   <h3>Jawa Barat - Tempatnya Waduk Jatiluhur Terbesar di Indonesia</h3> 
+   <nav> 
+    <ul> 
+     <li><button><a href="#home">Beranda</a></button></li> 
+     <li><button><a href="#destinations">Destinasi</a></button></li> 
+     <li><button><a href="#activities">Aktivitas</a></button></li> 
+     <li><button><a href="#culture">Budaya</a></button></li> 
+     <li><button><a href="#culinary">Kuliner</a></button></li> 
+     <li><button><a href="#plan">Rencanakan Perjalanan</a></button></li> 
+    </ul> 
+   </nav> 
+  </header> 
+
+  <main> 
+
+   <section id="home"> 
+    <h2>BERANDA</h2>
+
+    <h4>KEINDAHAN PURWAKARTA</h4>
+    <iframe class="hero-video" src="https://www.youtube.com/embed/PIxC-PTfEgk" title="Waduk Jatiluhur 4K" frameborder="0" allowfullscreen></iframe>
+
+
+    <div class="search-bar">
+        <input type="text" placeholder="Cari destinasi berdasarkan minat (Contoh: Waduk, Pantai, Budaya)...">
+        <input type="date" placeholder="Tanggal rencana kunjungan">
+        <button>CARI</button>
+    </div>
+
+
+    <h4>DESTINASI IKONIK</h4>
+    <div class="card">
+        <h5>WADUK JATILUHUR</h5>
+        <img src="https://bumntrack.co.id/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-13-at-21.06.07-768x576.jpeg" alt="Waduk Jatiluhur">
+        <p>Waduk terbesar di Indonesia dengan fungsi ganda dan pemandangan alam memukau.</p>
+    </div>
+    <div class="card">
+        <h5>MASJID TERAPUNG & HOTEL TERAPUNG</h5>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8dh4F8v-5kmypAML7yM4P9COCUGObE-R7vnJtDJSt-xCDzOGmhzgGtM7h-72hlNAbA2ckirzb3csyCRaQ-wzfKB8z1IGJmZllL9rPt4Ce0iB05pjuD35vSwThEMOsFBjEz6f_0ATjzTw/s500/Wisata+Waduk+Jatiluhur.jpg" alt="Candi Cangkuang">
+        <p>Fasilitas unggulan berupa masjid terapung seluas 20×20 meter dan hotel terapung di daerah Pamundungan, dirancang untuk menarik wisatawan lokal dan internasional.</p>
+    </div>
+    <div class="card">
+        <h5>AREA BERKEMAH WADUK JATILUHUR</h5>
+        <img src="https://getlost.id/wp-content/uploads/2023/01/20230119_104846-768x960.jpg" alt="Pantai Pasir Kuda">
+        <p>Tempat berkemah dengan pemandangan waduk yang indah, cocok untuk berlibur bersama keluarga atau teman.</p>
+    </div>
+
+
+    <h4>ACARA MENDATANG</h4>
+    <p>Festival Waduk Jatiluhur - 15-17 April 2026</p>
+    <p>Pesta Budaya Purwakarta - 20-22 Mei 2026</p>
+
+
+    <h4>ULASAN WISATAWAN</h4>
+    <p><em>"Pemandangan Waduk Jatiluhur sangat memesona!"</em> - @wisatawan_jawa #WisataPurwakarta</p>
+   </section>
+
+
+   <section id="destinations"> 
+    <h2>DESTINASI WISATA</h2>
+
+    <h4>PETA DESTINASI PURWAKARTA</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.793373327507!2d107.43861371476813!3d-6.564445665334396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef8a4f6b914b%3A0x53716f0a98f92c86!2sWaduk%20Jatiluhur!5e0!3m2!1sid!2sid!4v1719800000000!5m2!1sid!2sid" title="Peta Purwakarta"></iframe>
+
+
+    <h4>KATEGORI WILAYAH</h4>
+    <ul>
+        <li><strong>Zona Waduk & Pegunungan</strong>: Waduk Jatiluhur, Gunung Tiga Menara</li>
+        <li><strong>Zona Sejarah & Budaya</strong>: Museum Purwakarta</li>
+        <li><strong>Zona Pantai & Pantai Selatan</strong>: Pantai Pasir Kuda, Pantai Karangantu</li>
+    </ul>
+
+
+    <h4>INFO JARAK & WAKTU TEMPUH</h4>
+    <table>
+        <tr>
+            <th>DESTINASI</th>
+            <th>DARI KOTA PURWAKARTA</th>
+            <th>DARI BANDUNG</th>
+        </tr>
+        <tr>
+            <td>Waduk Jatiluhur</td>
+            <td>25 km (45 menit)</td>
+            <td>80 km (2 jam)</td>
+        </tr>
+    </table>
+   </section>
+
+
+   <section id="activities"> 
+    <h2>AKTIVITAS & PENGALAMAN</h2>
+
+    <h4>FILTER BERDASARKAN MINAT</h4>
+    <button>Petualangan</button>
+    <button>Keluarga</button>
+    <button>Romantis</button>
+    <button>Digital Nomad</button>
+
+
+    <h4>TOP 10 PENGALAMAN WAJIB</h4>
+    <ol>
+        <li>Berkeliling Waduk Jatiluhur dengan Kapal</li>
+        <li>Melihat Sunrise dari Gunung Cilembu</li>
+        <li>Mancing Ikan di Keramba Jaring Apung</li>
+        <li>Mengunjungi Candi Cangkuang</li>
+        <li>Menyaksikan Sunset di Waduk Jatiluhur</li>
+        <li>Berenang di Waterboom Waduk Jatiluhur</li>
+        <li>Berkemah di Area Waduk</li>
+        <li>Makan Ikan Bakar di Tepi Waduk</li>
+        <li>Berjalan-jalan di Jembatan Orange</li>
+        <li>Berwisata ke Pantai Pasir Kuda</li>
+    </ol>
+
+
+    <h4>PANDUAN MUSIM</h4>
+    <table>
+        <tr>
+            <th>MUSIM</th>
+            <th>AKTIVITAS REKOMENDASI</th>
+        </tr>
+        <tr>
+            <td>Dry Season (April-Oktober)</td>
+            <td>Trekking, berperahu, berjemur di pantai</td>
+        </tr>
+        <tr>
+            <td>Rainy Season (November-Maret)</td>
+            <td> Bersantai di restoran terapung, outbound</td>
+        </tr>
+    </table>
+
+
+    <h4>VIDEO WISATA TAMBAHAN</h4>
+    <iframe src="https://www.youtube.com/embed/UN1eDhFmvnM" title="Wisata Waduk Jatiluhur" frameborder="0" allowfullscreen></iframe>
+   </section>
+
+
+   <section id="culture"> 
+    <h2>BUDAYA & WARISAN</h2>
+
+    <h4>SEJARAH SINGKAT PURWAKARTA</h4>
+    <p>Kabupaten Purwakarta memiliki sejarah panjang yang terkait dengan Kerajaan Sunda, dengan banyak peninggalan bersejarah seperti Candi Cangkuang yang dibangun pada abad ke-8 Masehi.</p>
+
+
+    <h4>SITUS WARISAN DUNIA</h4>
+    <p>Belum ada situs dari Purwakarta yang masuk dalam daftar Warisan Dunia UNESCO, namun Candi Cangkuang merupakan calon potensial dengan nilai sejarah tinggi.</p>
+
+
+    <h4>ETIKA & ADAT LOKAL</h4>
+    <ul>
+        <li>Berkain saat mengunjungi tempat suci atau acara adat</li>
+        <li>Salam dengan tangan kanan dan sedikit membungkuk</li>
+        <li>Tidak merusak atau mengambil benda dari situs bersejarah</li>
+    </ul>
+   </section>
+
+
+   <section id="culinary"> 
+    <h2>PANDUAN KULINER</h2>
+
+    <h4>MAKANAN KHAS YANG WAJIB DICOBA</h4>
+    <div class="card">
+        <h5>IKAN BAKAR WADUK JATILUHUR</h5>
+        <img src="https://assets.kompasiana.com/items/album/2020/05/26/img-20200521-114647-01-5ecca40d097f366b0440d592.jpeg?t=o&v=300" alt="Ikan Bakar">
+        <p>Ikan segar dari waduk yang dibakar dengan bumbu khas Sunda, biasanya disajikan dengan lalapan dan sambal.</p>
+    </div>
+    <div class="card">
+        <h5>SOTO PURWAKARTA</h5>
+        <img src="https://img-global.cpcdn.com/recipes/1088bb228cec5856/1360x1562cq80/soto-sadang-khas-purwakarta-foto-resep-utama.webp" alt="Soto Purwakarta">
+        <p>Soto dengan kuah bening dan bumbu yang kaya rasa, disajikan dengan daging sapi dan kerupuk.</p>
+    </div>
+
+
+    <h4>DAFTAR TEMPAT MAKAN</h4>
+    <ul>
+        <li>Restoran Terapung Jatiluhur - Makanan Laut Segar</li>
+        <li>Warung Soto Pak Haji - Soto Khas Purwakarta</li>
+        <li>Kedai Kuliner Pasar Purwakarta - Street Food Lokal</li>
+    </ul>
+
+
+    <h4>PASAR TRADISIONAL</h4>
+    <p>Pasar Purwakarta - Tempat beli bahan makanan lokal dan oleh-oleh khas.</p>
+   </section>
+
+
+   <section id="plan"> 
+    <h2>RENCANAKAN PERJALANAN ANDA</h2>
+
+    <h4>SYARAT VISA</h4>
+    <p>Untuk wisatawan luar negeri: Visa Kunjungan Biasa (30 hari) atau Visa On Arrival untuk negara tertentu. Warga Indonesia tidak memerlukan visa.</p>
+
+
+    <h4>TRAN
